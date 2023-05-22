@@ -1,0 +1,13 @@
+<div
+  class="shadow shadow-lg py-4 px-2 bg-yellow-50 w-[25%] shadow-orange-500/50 rounded-md"
+>
+  <h1 class="text-xl font-bold uppercase text-indigo-500">
+    Informacion personal
+  </h1>
+  <ul>
+    <li *ngFor="let clave of ObtenerClaves()" >
+        <span class="text-indigo-400 font-bold"> {{ clave }}</span>
+     : &nbsp; <span class="text-slate-900">{{ datos[clave] }}</span>
+    </li>
+  </ul>
+</div>
