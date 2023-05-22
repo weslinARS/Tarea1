@@ -15,7 +15,6 @@ export class DatosComponent implements OnInit {
     colorFavorito: 'Negro',
   };
   constructor() {
-    this.datos;
   }
   ObtenerClaves(): string[] {
     return Object.keys(this.datos);
